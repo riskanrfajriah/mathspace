@@ -6,12 +6,12 @@
     <div class="alert alert-success">{{ pesan }}</div>
 {% endif %}
 
-<form action="/loginsiswa/" method="post">
+<form action="/registsiswa/" method="post">
     {% csrf_token %}
 
     {{ form.as_p }}
 
-    <button>Login</button>
+    <button>Sign Up</button>
 
 </form>
 

@@ -3,11 +3,11 @@ from siswa.models import datasiswa
 from siswa.forms import FormSiswa
 
 # Create your views here.
-def loginsiswa(request):
+def registsiswa(request):
     form = FormSiswa()
 
     konteks = {
         'form': form,
     }
 
-    return render(request, 'loginsiswa.html', konteks)
+    return render(request, 'registsiswa.html', konteks)

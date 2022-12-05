@@ -4,29 +4,202 @@
 
 {% block content %}
 
-<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top p-3" id="navbar-example2">
-    <div class="container">
-        <a class="navbar-brand" href="#">
-            <img src="/static/img/logo2.png" alt="Math Space" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse bg-light" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
-                <a class="nav-link" href="#About">About</a>
-                <a class="nav-link" href="#courses">Courses</a>
-                <a class="nav-link" href="https://www.instagram.com/nafsulmth/" id="">Contact us</a>
-                <a class="nav-link" href="#login" id="">Login
-                    <a><ul class="dropdown">
-                    <li><a href="">Guru</a></li>
-                    <li><a href="">Siswa</a></li>
-                    </ul></a>
-                </a>
-            </div>
-        </div>
+<div data-bs-spy data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <!-- Jumbotron -->
+    <div class="jumbotron" id="home">
+      <div class="text-j">
+        <img src="/static/img/Logo.png" alt="Math Space" />
+        <p class="lead">Develop Math skills & academic</p>
+      </div>
+      <a href="#About" role="button" class="btn btn-j"> Learn More </a>
     </div>
-</nav>
+    <!-- End Jumbotron -->
+
+    <!-- About us -->
+    <section data-aos="fade-up" class="mt-5" id="About">
+      <div class="container about text-center">
+        <div class="text-1 text-black">
+          <h2 class="display-4 about-us">About</h2>
+          <div class="container">
+            <p>
+            Math Space adalah platform belajar online yang ditujukan untuk membantu pelajar mendalami pelajaran matematika.
+            </p>
+            <p>
+            Platform ini dibentuk oleh Mahasiswa Pendidikan Matematika Universitas Sultan Ageng Tirtayasa
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about us -->
+    <!-- profile -->
+    <section class="profile text-center mx-auto mt-5" id="Profile">
+      <div class="line" data-aos="flip-up">
+        <div class="team text-center text-strong">
+          <h2>TEAM PROFILE</h2>
+        </div>
+      </div>
+      <div class="display-4 pro-text text-center">
+        <h2>Meet Our Team</h2>
+        <div class="container executive">
+          <div class="row">
+            <div class="col-lg-4" data-aos="fade-right">
+              <div class="card card-team-profile">
+                <img src="/static/img/nafsul.jpg" class="card-img-top rounded-circle" alt="..." />
+                <div class="card-body card-bd">
+                  <h5 class="card-title">Nafsul Muthmainnah</h5>
+                  <h6>NIM. 2225210037</h6>
+                  <div class="bars-1"></div>
+                  <ul class="text-start">
+                    <li>Mahasiswa Pendidikan Matematika</li>
+                    <li>Universitas Sultan Ageng Tirtayasa</li>
+                  </ul>
+                  <div class="sosial-media">
+                    <a href=" https://www.instagram.com/nafsulmth/" class="text-white" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-1x fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4" data-aos="fade-left">
+              <div class="card card-team-profile">
+                <img src="/static/img/salmia.jpg" class="card-img-top rounded-circle" alt="..." />
+                <div class="card-body card-bd">
+                  <h5 class="card-title">Ratu Salmia Salsabila</h5>
+                  <h6>NIM. 2225210087</h6>
+                  <div class="bars-1"></div>
+                  <ul class="text-start">
+                    <li>Mahasiswa Pendidikan Matematika</li>
+                    <li>Universitas Sultan Ageng Tirtayasa</li>
+                  </ul>
+                  <div class="sosial-media">
+                    <a href=" https://www.instagram.com/salmiaasbl/" class="text-white" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-1x fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-aos="fade-left">
+              <div class="card card-team-profile">
+                <img src="/static/img/Riska.jpg" class="card-img-top rounded-circle" alt="..." />
+                <div class="card-body card-bd">
+                  <h5 class="card-title">Riska Nurfajriah</h5>
+                  <h6>NIM. 2225210079</h6>
+                  <div class="bars-1"></div>
+                  <ul class="text-start">
+                    <li>Mahasiswa Pendidikan Matematika</li>
+                    <li>Universitas Sultan Ageng Tirtayasa</li>
+                  </ul>
+                  <div class="sosial-media">
+                    <a href=" https://www.instagram.com/riskanrfajriah/" class="text-white" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-1x fa-instagram"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" data-aos="fade-up-right">
+                <div class="card card-team-profile">
+                  <img src="/static/img/Uyun.jpg" class="card-img-top rounded-circle" alt="..." />
+                  <div class="card-body card-bd">
+                    <h5 class="card-title">Roudhotul Uyun</h5>
+                    <h6>NIM. 2225210053</h6>
+                    <div class="bars-1"></div>
+                    <ul class="text-start">
+                      <li>Mahasiswa Pendidikan Matematika</li>
+                      <li>Universitas Sultan Ageng Tirtayasa</li>
+                    </ul>
+                    <div class="sosial-media">
+                      <a href=" https://www.instagram.com/roudotul_yn/" class="text-white" target="_blank" rel="noreferrer noopener"><i class="fa-brands fa-1x fa-instagram"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    <!-- end profile -->
+    <!-- courses -->
+    <section id="courses">
+      <div class="container-fluid py-3 contain-event">
+        <div class="container contain-event-card py-3">
+          <br /><br /><br /><br />
+          <h4>OUR COURSES</h4>
+          <div class="bars-2"></div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <!-- card 1 -->
+              <div class="card p-2 swiper-slide text-center dayEnglish">
+                <img src="/static/img/logo.png" class="card-img-top dayEnglish-img" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title title-21day-courses"><i class="fa-solid fa-calendar-days"></i> : Coming Soon</h5>
+                  <a href="#about-event" class="btn btn-dark btn-sm fw-bold more-info" style="width: 6rem">More Info</a>
+                </div>
+              </div>
+
+              <!-- card 2 -->
+              <div class="card p-2 swiper-slide text-center comingSoon">
+                <div class="card-body">
+                  <h3 class="card-title comingSoon-txt">COMING SOON</h3>
+                </div>
+              </div>
+
+              <!-- card 3 -->
+              <div class="card p-2 swiper-slide text-center comingSoon">
+                <div class="card-body">
+                  <h3 class="card-title comingSoon-txt">COMING SOON</h3>
+                </div>
+              </div>
+
+              <!-- card 4 -->
+              <div class="card p-2 swiper-slide text-center comingSoon">
+                <div class="card-body">
+                  <h3 class="card-title comingSoon-txt">COMING SOON</h3>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr size="5" width="200rem" style="margin: 0 auto" />
+  
+
+  <!-- footer -->
+  <footer id="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7 col-xs-6 footer-left">
+          <img src="/static/img/logo2.png" alt="" class="ESFooter text-center" width="100px" />
+          <p class="mt-2 title-footer">Develop Math Skills & Academic</p>
+          <br />
+          <a href="https://www.instagram.com/salmiaasbl/" target="_blank" rel="noreferrer noopener" class="m-2"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+          <a href="https://wa.me/6285880222542" target="_blank" rel="noreferrer noopener" class="m-2"><i class="fa-brands fa-whatsapp fa-2xl"></i></a>
+        </div>
+        <div class="col-md-5 col-xs-6 footer-right">
+          <p>mathspace@gmail.com<br /><strong>(+62) 858 8022 2542</strong></p>
+
+
+          <br />
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./JS/script.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
 
 {% endblock %}

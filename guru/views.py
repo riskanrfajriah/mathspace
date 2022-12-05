@@ -3,11 +3,12 @@ from guru.models import dataguru
 from guru.forms import FormGuru
 
 # Create your views here.
-def loginguru(request):
+def registguru(request):
     form = FormGuru()
 
     konteks = {
         'form': form,
     }
 
-    return render(request, 'loginguru.html', konteks)
+    return render(request, 'registguru.html', konteks)
+

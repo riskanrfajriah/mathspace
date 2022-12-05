@@ -18,14 +18,14 @@ from django.urls import path
 from about.views import about
 from courses.views import courses
 from home.views import home
-from guru.views import loginguru
-from siswa.views import loginsiswa
+from guru.views import *
+from siswa.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('about/', about),
     path('courses/', courses),
     path('home/', home),
-    path('loginguru/', loginguru),
-    path('loginsiswa/', loginsiswa),
+    path('registguru/', registguru),
+    path('registsiswa/', registsiswa),
 ]
