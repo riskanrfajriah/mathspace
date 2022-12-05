@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<section id="carousel">
+    <div class="container-fluid py-3 contain-event">
+      <div class="container contain-event-card py-3">
+        <br /><br /><br /><br />
+        <h4>OUR COURSES</h4>
+        <div class="bars-2"></div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- card 1 -->
+            <div class="card p-2 swiper-slide text-center dayEnglish">
+              <img src="/static/img/logo.png" class="card-img-top dayEnglish-img" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title title-21day-carousel"><i class="fa-solid fa-calendar-days"></i> : Coming Soon</h5>
+                <a href="#about-event" class="btn btn-dark btn-sm fw-bold more-info" style="width: 6rem">More Info</a>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card p-2 swiper-slide text-center comingSoon">
+              <div class="card-body">
+                <h3 class="card-title comingSoon-txt">COMING SOON</h3>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card p-2 swiper-slide text-center comingSoon">
+              <div class="card-body">
+                <h3 class="card-title comingSoon-txt">COMING SOON</h3>
+              </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="card p-2 swiper-slide text-center comingSoon">
+              <div class="card-body">
+                <h3 class="card-title comingSoon-txt">COMING SOON</h3>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr size="5" width="200rem" style="margin: 0 auto" />
+
+
+{% endblock %}

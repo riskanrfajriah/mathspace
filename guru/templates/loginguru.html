@@ -1,0 +1,16 @@
+{% block content %}
+
+{% if pesan %}
+    <div class="alert alert-success">{{ pesan }}</div>
+{% endif %}
+
+<form action="/loginguru/" method="post">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+
+    <button>Login</button>
+
+</form>
+
+{% endblock %}

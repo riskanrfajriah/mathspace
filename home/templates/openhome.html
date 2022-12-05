@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top p-3" id="navbar-example2">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="/static/img/logo2.png" alt="Math Space" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bg-light" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" href="#About">About</a>
+                <a class="nav-link" href="#courses">Courses</a>
+                <a class="nav-link" href="https://www.instagram.com/nafsulmth/" id="">Contact us</a>
+                <a class="nav-link" href="#login" id="">Login
+                    <a><ul class="dropdown">
+                    <li><a href="">Guru</a></li>
+                    <li><a href="">Siswa</a></li>
+                    </ul></a>
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+{% endblock %}
