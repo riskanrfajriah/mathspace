@@ -427,10 +427,10 @@ footer {
 }
 
 #footer .container-fluid .row .footer-right {
-  padding: 100px 0 100px 50px;
+  padding: 90px 0 80px 30px;
 }
 #footer .container-fluid .row .footer-left {
-  padding: 100px 0 100px 60px;
+  padding: 90px 0 80px 30px;
 }
 #footer .container-fluid .row a {
   padding: 10px;
@@ -458,7 +458,7 @@ footer {
     font-weight: 10px !important;
   }
   #footer .container-fluid .row .footer-left .ESFooter {
-    width: 400px;
+    width: 200px;
   }
 }
 @media screen and (max-width: 1115px) {
@@ -612,9 +612,9 @@ footer {
     font-size: 10px;
   }
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 800px) {
   #footer .container-fluid .row .footer-left .ESFooter {
-    width: 250px;
+    width: 100px;
   }
   #footer .container-fluid .row .footer-left {
     color: white;

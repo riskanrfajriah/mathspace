@@ -15,6 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from django.contrib.auth.views import LoginView
 from about.views import about
 from courses.views import courses
 from home.views import home
@@ -28,4 +29,5 @@ urlpatterns = [
     path('home/', home),
     path('registguru/', registguru),
     path('registsiswa/', registsiswa),
+    path('login/', LoginView.as_view(), name='login'),
 ]

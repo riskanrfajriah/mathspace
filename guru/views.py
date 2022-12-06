@@ -12,3 +12,12 @@ def registguru(request):
 
     return render(request, 'registguru.html', konteks)
 
+def loginguru(request):
+    form = FormGuru()
+
+    konteks = {
+        'form': form,
+    }
+
+    return render(request, 'registguru.html', konteks)
+
